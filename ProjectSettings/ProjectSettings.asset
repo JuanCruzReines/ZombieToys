@@ -496,7 +496,8 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   cloudProjectId: 64fc7e46-b083-4211-9c67-8811291929b0
   projectName: ZombieToys (1)
   organizationId: juancruzreines
