@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 7064fa5724d3f3240aa2f63a72723245
+labels:
+- Ally
+- Manager
+- Script
 timeCreated: 1454388701
 licenseType: Store
 MonoImporter:

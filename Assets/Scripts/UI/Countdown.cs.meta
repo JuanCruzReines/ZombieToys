@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: e514cabd62d7c44b5bec68a0d14691a0
+labels:
+- Script
+- Ui
 timeCreated: 1435736897
 licenseType: Store
 MonoImporter:

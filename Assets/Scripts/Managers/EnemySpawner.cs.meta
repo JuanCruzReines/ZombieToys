@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: ad22b7e7d07fa914883f30d7e579c412
+labels:
+- Enemy
+- Manager
+- Script
 timeCreated: 1453412876
 licenseType: Store
 MonoImporter:

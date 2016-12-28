@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 73b7d21b94bd84341877a0eefece306f
+labels:
+- Attack
+- Script
+- StinkBomb
 timeCreated: 1454432292
 licenseType: Store
 MonoImporter:

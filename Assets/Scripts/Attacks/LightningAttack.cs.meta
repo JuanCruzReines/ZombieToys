@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 7dce0b267cc0c0f498096d3b554ae721
+labels:
+- Attack
+- LightningRay
+- Script
 timeCreated: 1453153725
 licenseType: Store
 MonoImporter:

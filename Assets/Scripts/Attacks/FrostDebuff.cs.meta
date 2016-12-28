@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 1ae20aae18003af4dbbbc02e2ffcbe46
+labels:
+- Attack
+- FreezeRay
+- Script
 timeCreated: 1453581732
 licenseType: Store
 MonoImporter:

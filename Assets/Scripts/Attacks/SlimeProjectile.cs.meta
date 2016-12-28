@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 9940aef610363834b8225faaef44fa02
+labels:
+- Attack
+- Script
+- Slime
 timeCreated: 1454560550
 licenseType: Store
 MonoImporter:
