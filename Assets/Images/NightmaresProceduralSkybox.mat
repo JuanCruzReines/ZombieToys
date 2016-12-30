@@ -90,7 +90,7 @@ Material:
       second: 1
     - first:
         name: _Exposure
-      second: 1.16
+      second: 0.6
     - first:
         name: _Glossiness
       second: 0
@@ -151,7 +151,7 @@ Material:
       second: {r: 0, g: 0.1766758, b: 0.46323532, a: 1}
     - first:
         name: _SkyTint
-      second: {r: 0.3062608, g: 0.10705018, b: 0.33088237, a: 1}
+      second: {r: 0.08275584, g: 0.048442896, b: 0.11764706, a: 1}
     - first:
         name: _SkyTopColor
       second: {r: 0, g: 0.15387751, b: 0.30882353, a: 1}
