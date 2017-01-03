@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4404906726145600}
   - component: {fileID: 137577031175669424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hellephant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114802130798613620}
   - component: {fileID: 114908135351961832}
   - component: {fileID: 114559640576744974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hellephant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1993141324220480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.290834, y: 0.049304843, z: -19.79158}
+  m_LocalPosition: {x: -31.232258, y: -0.1396867, z: -31.617651}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4404906726145600}
