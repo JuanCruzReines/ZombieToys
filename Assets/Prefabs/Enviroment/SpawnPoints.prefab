@@ -43,6 +43,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1765687687886680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4767993861630668}
+  m_Layer: 0
+  m_Name: AllySpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1863836390077714
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,6 +136,7 @@ Transform:
   - {fileID: 4787268516505964}
   - {fileID: 4553650687520076}
   - {fileID: 4781784364185632}
+  - {fileID: 4767993861630668}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -163,6 +179,19 @@ Transform:
   m_Father: {fileID: 4090751895754092}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 130, z: 0}
+--- !u!4 &4767993861630668
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1765687687886680}
+  m_LocalRotation: {x: -0, y: -0.62516755, z: -0, w: 0.7804906}
+  m_LocalPosition: {x: 5.1, y: 0, z: -25.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4090751895754092}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -77.389, z: 0}
 --- !u!4 &4781784364185632
 Transform:
   m_ObjectHideFlags: 1
@@ -203,7 +232,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1815669439235044, guid: cf15a94de8519b0409040e89ec07aecf,
     type: 2}
   spawnRate: 6
-  maxEnemies: 3
+  maxEnemies: 6
   canSpawn: 1
 --- !u!114 &114523307158755290
 MonoBehaviour:
@@ -219,7 +248,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1755697902057660, guid: 7ef94a1acaa82e14288a41fec0c43f6d,
     type: 2}
   spawnRate: 15
-  maxEnemies: 2
+  maxEnemies: 4
   canSpawn: 1
 --- !u!114 &114537605448373030
 MonoBehaviour:
@@ -235,7 +264,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1770974880256988, guid: 45f5502e04c9a8645a28fab7d9f3e345,
     type: 2}
   spawnRate: 5
-  maxEnemies: 4
+  maxEnemies: 8
   canSpawn: 1
 --- !u!114 &114792875440980234
 MonoBehaviour:
@@ -251,7 +280,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1993141324220480, guid: 1909a5473a549244d9952afabbfe1a34,
     type: 2}
   spawnRate: 10
-  maxEnemies: 2
+  maxEnemies: 3
   canSpawn: 1
 --- !u!114 &114799807757384920
 MonoBehaviour:
@@ -267,5 +296,5 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1395095880258268, guid: e521f5623b2ac47448863eb69420a524,
     type: 2}
   spawnRate: 10
-  maxEnemies: 2
+  maxEnemies: 4
   canSpawn: 1

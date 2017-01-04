@@ -203,31 +203,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 114537605448373030, guid: 1048dce42b58d4b44a1a49467324ce64,
-        type: 2}
-      propertyPath: maxEnemies
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114523307158755290, guid: 1048dce42b58d4b44a1a49467324ce64,
-        type: 2}
-      propertyPath: maxEnemies
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114380438708610512, guid: 1048dce42b58d4b44a1a49467324ce64,
-        type: 2}
-      propertyPath: maxEnemies
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114792875440980234, guid: 1048dce42b58d4b44a1a49467324ce64,
-        type: 2}
-      propertyPath: maxEnemies
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114799807757384920, guid: 1048dce42b58d4b44a1a49467324ce64,
-        type: 2}
-      propertyPath: maxEnemies
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1048dce42b58d4b44a1a49467324ce64, type: 2}
   m_IsPrefabParent: 0
@@ -2363,6 +2338,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1878300381395326, guid: e06f087d47dcb94418e55901d94b9f5d,
     type: 2}
   m_PrefabInternal: {fileID: 1878270626}
+--- !u!4 &1165161675 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4767993861630668, guid: 1048dce42b58d4b44a1a49467324ce64,
+    type: 2}
+  m_PrefabInternal: {fileID: 64799898}
 --- !u!1001 &1166277734
 Prefab:
   m_ObjectHideFlags: 0
@@ -2940,6 +2920,7 @@ GameObject:
   - component: {fileID: 1522617918}
   - component: {fileID: 1522617917}
   - component: {fileID: 1522617916}
+  - component: {fileID: 1522617919}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2981,7 +2962,7 @@ MonoBehaviour:
   gameoverText: {fileID: 0}
   enemySpawners: {fileID: 0}
   cameraAnimator: {fileID: 0}
-  allyManager: {fileID: 0}
+  allyManager: {fileID: 1522617919}
 --- !u!4 &1522617918
 Transform:
   m_ObjectHideFlags: 0
@@ -2995,6 +2976,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522617919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1522617915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7064fa5724d3f3240aa2f63a72723245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allyCost: 100
+  allyPrefab: {fileID: 1567178374671176, guid: b5b9515fa6a2b3549ac73c09e3d1f73a, type: 2}
+  allySpawnPoint: {fileID: 1165161675}
+  allyImage: {fileID: 0}
 --- !u!1001 &1530078318
 Prefab:
   m_ObjectHideFlags: 0
