@@ -90,7 +90,8 @@ public class EnemyHealth : MonoBehaviour
 		if(audioSource != null)
 			audioSource.Play();
 		//Play the hit particle effect
-		hitParticles.Play();
+        if(hitParticles != null)
+		    hitParticles.Play();
 	}
 
 	//Called when the enemy health is reduce to 0 or lower
