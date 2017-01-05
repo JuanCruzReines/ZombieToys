@@ -423,8 +423,8 @@ MonoBehaviour:
   scoreValue: 25
   sinkSpeed: 2.5
   deathEffectTime: 2
-  deathClip: {fileID: 0}
-  hurtClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
+  hurtClip: {fileID: 8300000, guid: 1d4840678e677424b8921716c72397ea, type: 3}
   enemyAttack: {fileID: 114997801714101972}
   enemyMovement: {fileID: 114508889654856946}
   animator: {fileID: 95220079343136390}
