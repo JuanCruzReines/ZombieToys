@@ -3034,7 +3034,7 @@ MonoBehaviour:
   infoText: {fileID: 0}
   gameoverText: {fileID: 0}
   enemySpawners: {fileID: 1089581296}
-  cameraAnimator: {fileID: 0}
+  cameraAnimator: {fileID: 1929309114}
   allyManager: {fileID: 1522617919}
 --- !u!4 &1522617918
 Transform:
@@ -4088,6 +4088,8 @@ GameObject:
   - component: {fileID: 1929309109}
   - component: {fileID: 1929309108}
   - component: {fileID: 1929309113}
+  - component: {fileID: 1929309114}
+  - component: {fileID: 1929309115}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4156,13 +4158,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1929309107}
-  m_LocalRotation: {x: 0.14012735, y: -0, z: -0, w: 0.9901335}
-  m_LocalPosition: {x: -21.78, y: 3.63, z: -35.93}
+  m_LocalRotation: {x: 0, y: -0.9659258, z: 0.2588191, w: 0}
+  m_LocalPosition: {x: -26, y: 5, z: -17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 16.11, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: -180, z: 0}
 --- !u!114 &1929309113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4175,7 +4177,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smoothing: 5
-  offset: {x: 0, y: 15, z: -28}
+  offset: {x: 0, y: 15, z: -23}
+--- !u!95 &1929309114
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929309107}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 930a23574112bf2409eda4bff4c10bc2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1929309115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929309107}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ac3cf8856f041ea91b2f29333c912b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1929309114}
 --- !u!1001 &1946732450
 Prefab:
   m_ObjectHideFlags: 0

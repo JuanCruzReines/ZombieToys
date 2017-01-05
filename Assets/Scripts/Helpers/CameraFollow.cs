@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 	[SerializeField] float smoothing = 5f;							//Amount of smoothing to apply to the cameras movement
-	[SerializeField] Vector3 offset = new Vector3 (0f, 15f, -22f);	//The offset of the camera from the player (how far back and above the player the camera should be)
+	[SerializeField] Vector3 offset = new Vector3 (0f, 15f, -23f);	//The offset of the camera from the player (how far back and above the player the camera should be)
 
 	//FixedUpdate is used to handle physics based code. No physics code exists in this FixedUpdate, but since the player's movement code
 	//is handled in FixedUpdate, we are moving the camera in FixedUpdate as well so that they stay in sync
