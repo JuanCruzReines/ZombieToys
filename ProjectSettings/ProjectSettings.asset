@@ -10,7 +10,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Unity Technologies
+  companyName: Juan Cruz Reines & Unity Company
   productName: Zombie Toys
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -204,12 +204,13 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  resolutionDialogBanner: {fileID: 0}
+  resolutionDialogBanner: {fileID: 2800000, guid: 54bfef119b98bec408048cd372452b30,
+    type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 832d1c80a1da9594699e490c7a52ef43, type: 3}
       m_Width: 128
       m_Height: 128
   m_BuildTargetBatching:
@@ -393,7 +394,7 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-    1: CROSS_PLATFORM_INPUT
+    1: Music;Slider
     2: CROSS_PLATFORM_INPUT
     4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
